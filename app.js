@@ -36,10 +36,10 @@ app.post("/", function(req, res){
 
 
   var options = {
-    url: "https://us4.api.mailchimp.com/3.0/lists/9d25b9c47f",
+    url: "https://us4.api.mailchimp.com/3.0/lists/#########",
     method: "POST",
     headers: {
-      "Authorization": "alex1 0da71940771d754c2cb8899437bb6f2a-us4"
+      "Authorization": "#####################################"
     },
     body: jsonData
   };
@@ -69,7 +69,7 @@ app.listen(process.env.PORT || 3000, function() {
 });
 
 // API Key
-// 0da71940771d754c2cb8899437bb6f2a-us4
+// ############################
 
 // Audience ID
-// 9d25b9c47f
+// ##############
